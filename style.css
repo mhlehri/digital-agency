@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(134, 141, 143);
+  padding: 15px 0;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+  gap: 15px;
+  color: white;
+}
+.banner-container {
+  background: url("asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.primary {
+  color: red;
+}
+.bg-primary {
+  background-color: red;
+  color: white;
+}
+.b-title {
+  font-size: 90px;
+  font-weight: bold;
+  color: white;
+}
+.description {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  width: 60%;
+  margin: auto;
+}
+.btn {
+  padding: 15px 30px;
+  border: none;
+  font-size: 20px;
+}
+
+/* service section CSS */
+.service-section {
+  background: url("asset/image/footer-bg.png"),
+    linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-left-content {
+  color: white;
+  width: 50%;
+}
+.serivce-list-btn {
+  border-radius: 30px;
+  color: #757575;
+}
+.service-title {
+  font-size: 40px;
+  color: rgb(190, 207, 208);
+  margin-top: 10px;
+}
+.service-description {
+  width: 75%;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(190, 207, 208);
+}
+.service-left-content ol {
+  padding: 10px;
+  padding-left: 15px;
+  font-size: 18px;
+  color: rgb(190, 207, 208);
+}
+.service-author-info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+.author-left {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid red;
+  gap: 10px;
+  padding-right: 60px;
+}
+.author-left img {
+  width: 80px;
+  border-radius: 50%;
+}
+.services-list-box {
+  display: flex;
+}
+.service-boxes {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+.service-boxes img {
+  padding: 20px;
+}
+
+/* appointment section CSS */
+.appointment-section {
+  width: 75%;
+  background-color: rgb(245, 44, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 15px;
+  margin: -80px auto auto;
+  border-radius: 15px;
+}
+.call-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  border-right: 1px solid white;
+}
+.appointment-description {
+  width: 40%;
+  padding: 10px;
+}
+.appointment-btn {
+  background: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 35px;
+}
+
+/* blog and news section CSS */
+.blog-section {
+  padding: 20px;
+}
+.blog-section-title {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+.blog-section-description {
+  width: 50%;
+  font-size: 22px;
+  margin: auto;
+  text-align: center;
+}
+.blogs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 35px;
+}
+.blog-box {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #696969;
+}
+.blog-box img {
+  border-radius: 10px 10px 0 0;
+}
+.blog-text {
+  padding: 30px 15px;
+}
+.blog-text h2 {
+  margin-bottom: 10px;
+}
+.blog-text p {
+  font-size: 18px;
+  color: #696969;
+}
+
+/* footer section CSS */
+footer {
+  background: url("asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  height: 70vh;
+  line-height: 1.8rem;
+  color: white;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  height: 60vh;
+  margin: 0 auto;
+  border-bottom: 1px solid #696969;
+}
+.footer-container h2 {
+  margin-bottom: 20px;
+}
+.agency-info {
+  width: 25%;
+}
+.agency-info i {
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.copy-right {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
